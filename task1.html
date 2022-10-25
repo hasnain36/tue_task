@@ -1,0 +1,21 @@
+<html>
+   <body>
+    <h1> Task Number 1</h1>
+    <script> 
+        var student = {
+           name : "David Rayy",
+           sclass : "VI",
+           rollno : 12 
+        }; 
+        let txt = " ";
+          for (let x in student) {
+              txt += student[x] + " ";
+           }
+        document.write(txt + "<br>");
+        delete student["rollno"];
+        document.write(student.name + " " +student.sclass + " " + student.rollno);
+    
+        </script>
+   </body>
+    
+</html>

@@ -1,0 +1,17 @@
+<html>
+    <script>
+        function remove(array, n)
+ {
+   var index = array.indexOf(n);
+   if (index > -1) {
+    array.splice(index, 1);
+}
+   return array;
+ }
+data=[2, 5, 9, 6];
+document.write(data + "<br>");
+var num=5;
+remove(data,num);
+document.write(data);
+    </script>
+</html>
